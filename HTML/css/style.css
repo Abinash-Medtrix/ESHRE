@@ -1,0 +1,182 @@
+/*  div{
+    outline: 1px solid #000;
+} */
+
+/* temp css in top */
+
+
+
+body{padding: 0px; margin: 0px;  font-family: Verdana; color: #000; background:url(../images/bg.png) top right; width: 100%; height: 100%;}
+.noPadding{padding-left: 0px !important; padding-right: 0px !important;}
+.noMargin{margin-left: 0px !important; margin-right: 0px !important;}
+.centermargin{margin: 0 auto;}
+.noBorder{border: 0px;}
+
+.fLeft{float: left;}
+.fRight{float: right;}
+
+.textCenter{text-align: center;}
+.textRight{text-align: right;}
+
+/* padding class */
+.nopaddingLeft{padding-left: 0px !important;}
+.noPaddingRight{padding-right: 0px !important;}
+.smPaddingAll{  padding: 0px 10px !important; }
+
+.mdPadddingAll{ padding: 15px 15px;}
+.xsPaddingLeft{padding-left: 5px;}
+.smPaddingLeft{padding-left: 15px;}
+.mdPaddingLeft{padding-left: 30px;}
+.lgPaddingLeft{padding-left: 50px;}
+
+.xsPaddingRight{padding-right: 5px;}
+.smPaddingRight{padding-right: 15px;}
+.mdPaddingRight{padding-right: 30px;}
+.lgPaddingRight{padding-right: 50px;}
+
+.xsPaddingTop{padding-top: 5px;}
+.smPaddingTop{padding-top: 15px;}
+.mdPaddingTop{padding-top: 30px;}
+.lgPaddingTop{padding-top: 50px;}
+
+/* margin class */
+.xsMarginLeft{margin-left: 5px;}
+.smMarginLeft{margin-left: 15px;}
+.mdMarginLeft{margin-left: 30px;}
+.lgMarginLeft{margin-left: 50px;}
+
+.xsMarginRight{margin-right: 5px;}
+.smMarginRight{margin-right: 15px;}
+.mdMarginRight{margin-right: 30px;}
+.lgMarginRight{margin-right: 50px;}
+
+.xsMarginTop{margin-top: 5px;}
+.smMarginTop{margin-top: 15px;}
+.mdMarginTop{margin-top: 30px;}
+.lgMarginTop{margin-Top: 50px;}
+.pinkColor{
+    color: #E8308A !important
+}
+.purpleColor{
+    color: #522583;
+}
+.whiteColor{
+    color: #fff;
+}
+.bgWhite{
+    background:#fff;
+}
+/* nav starts here */
+
+.topBar{
+    background: #522583;
+    height: 30px;
+    z-index: 9;
+}
+
+
+/* nav ends here */
+.regBtn{
+    background: #522583;
+    color: #fff;
+    padding: 8px 30px !important;
+    font-size: 16px !important;
+    border-radius: 0px !important;
+}
+.MerkFont{
+    font-family: 'merckregular';
+}
+h1{
+    color: #E8308A !important;
+}
+
+footer{
+    background: #522583;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+footer img{
+    padding-bottom: 15px;
+}
+/* @media starts here */
+
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767px) {
+    body{ 
+        background:url(../images/bg.png) 950px -100px;
+    }
+    .navbar-fixed-top {
+        top: 30px !important;
+        border-width: 0px;
+    }
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 20px;
+        border: none !important;
+        background: #A5D7D5;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background: #fff;
+    }
+    navbar-brand {
+        height: 65px !important;
+    }
+    .navbar-toggle {
+        padding: 15px 10px !important; 
+    }
+    .navbar-nav {
+        margin: 0 auto !important;
+        text-align: center;
+        width: 50%;
+    }
+    .navbar-toggle i{
+        color: #fff;
+    }
+    .navbar-nav>li>a{
+        color: #fff;
+    }
+    .nav>li>a:focus, .nav>li>a:hover{
+        background-color: #522583 !important;
+        color: #fff;
+    }
+    footer{
+        background: #522583;
+        position: relative;
+        bottom: -30px;
+        left: 0px;
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 770px)  {
+    body {
+        background: url(../images/bg.png) 1200px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+@media (min-width: 812px) and (max-width: 813px)  {
+    footer{
+        background: #522583;
+        position: relative;
+        bottom: -30px;
+        left: 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    
+}
+
+
